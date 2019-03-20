@@ -13,13 +13,19 @@
 // if it is, add it to the vowel variable
 // repeat
 
+var vowels = ['a','e','i','o','u', 'A','E', 'I', 'O', 'U'];
+var vowelContainer = [];
+
 
 function findTheVowels(string){
-    var vowels = ['a','e','i','o','u', 'A','E', 'I', 'O', 'U'];
-    var vowelContainer = [];
+    for(var i = 0; i < string.length; i++){
+        var currentVowel = string[i];
 
-    for(var i = 0; i < string.length; i++)
-        if(string[i]){}
-            vowelContainer.push(string[i])}
-            return vowelContainer;
+
+        for( var vowelIndex = 0; vowelIndex < vowels.length; vowelIndex++){
+
+        }
+
+
+        }
 }
