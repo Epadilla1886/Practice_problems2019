@@ -22,7 +22,7 @@ function dataSort(array){
             typeString.push(array[i])
         } else if(typeof array[i] === 'number'){
             typeNum.push(array[i])
-        } else if (typeof array[i] === boolean){
+        } else if (typeof array[i] === 'boolean'){
             typeBoolean.push(array[i])
         }
         var sortedArray = [typeString, typeNum, typeBoolean];
