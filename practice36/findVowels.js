@@ -20,8 +20,6 @@ var vowelContainer = [];
 function findTheVowels(string){
     for(var i = 0; i < string.length; i++){
         var currentVowel = string[i];
-
-
         for( var vowelIndex = 0; vowelIndex < vowels.length; vowelIndex++){
 
         }
